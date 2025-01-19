@@ -106,10 +106,85 @@
     max-width: 100%;
 }
 
+.team-feautres{
+    max-width: 1440px;
+    display: flex;
+    gap: 73px;
+    align-items: center;
+    margin: 85px auto;
+}
+
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.img-prop{
+    border-radius: 8px;
+    max-width: 100%;
+}
+.team-body{
+    max-width: 537px;
+
+}
+.of{
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: rgba(19, 19, 19, 1);
+}
+.quick{
+    color: rgba(114, 114, 114, 1);
+    font-weight: 600;
+    font-size: 2.8rem;
+
+}
+.feature{
+    color: rgba(255, 144, 14, 1);
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+.team-text{
+    color: rgba(114, 114, 114, 1);
+    font-size: 1rem;
+    
+}
+.love-and-joy{
+    display: flex;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 54px;
+}
+.joy-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+    border-left: 5px solid rgba(255, 144, 14, 1); 
+    padding-left: 21px;
+}
+.joy-text{
+    font-size: 1rem;
+    color: rgba(114, 114, 114, 1);
+}
+.joy-card1{
+    padding: 30px 42px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+.joy-card1 h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 /*Media Query*/
 
 @media screen and (max-width:576px) {
     .navbar{
+        flex-direction: column;
+    }
+    .team-feautres{
         flex-direction: column;
     }
     
