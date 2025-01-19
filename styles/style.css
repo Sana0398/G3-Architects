@@ -1,0 +1,48 @@
+
+.work-sans-font {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*Shared Components*/
+.hero-color{
+    background-color: rgba(255, 144, 14, 1);
+
+}
+
+/*header compnents*/
+
+.header-cls{
+    background-color: rgba(255, 144, 14, 0.1);
+    background-size: cover;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 228px;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: bold;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item a{
+    text-decoration: none;
+}
