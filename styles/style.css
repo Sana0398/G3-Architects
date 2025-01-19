@@ -11,6 +11,26 @@
     background-color: rgba(255, 144, 14, 1);
 
 }
+.primary-btn{
+    color: white;
+    background-color:rgba(255, 144, 14, 1); 
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    border: none;
+    
+}
+.primary-btn:hover{
+    color: rgba(255, 144, 14, 1);
+    background-color:white; 
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    border: 1px solid rgba(255, 144, 14, 1);
+
+}
 
 /*header compnents*/
 
@@ -19,30 +39,78 @@
     background-size: cover;
     
 }
-.navbar{
+.navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 50px 228px;
+    max-width: 1440px;
+    /* padding: 50px 228px; */
+    margin: 0 auto;
 }
 .nav-title{
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: bold;
+    /* max-width: 50%; */
 }
 .nav-list{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.nav-item{
+    /* max-width: 50%; */
+} 
+ .list-item{
     list-style: none;
+    margin-right: 30px;
+    
 
-}
-.nav-items{
+} 
+.list-items{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-item a{
+.list-item a{
     text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgba(66, 66, 66, 1);
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    /* padding: 50px 228px; */
+    margin: 0 auto;
+}
+.banner-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-title{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner-text{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(114, 114, 114, 1);
+}
+.banner-img{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/*Media Query*/
+
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+    }
+    
 }
