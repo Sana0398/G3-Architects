@@ -178,6 +178,10 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.joy-img{
+    max-width: 100%;
+    border-radius: 8px;
+}
 /*Media Query*/
 
 @media screen and (max-width:576px) {
@@ -185,6 +189,9 @@
         flex-direction: column;
     }
     .team-feautres{
+        flex-direction: column;
+    }
+    .love-and-joy{
         flex-direction: column;
     }
     
